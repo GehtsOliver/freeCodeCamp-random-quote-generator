@@ -1,0 +1,59 @@
+.container{
+    min-height: 25%;   
+    background-color: #505050b9;
+    color: #ffffff;
+    max-width: 50%;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.container div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tags{
+    padding: .9rem;
+    background-color: #383838;
+
+    border-radius: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.btm{
+    color: #ffffff;
+    font-weight: bold;
+    height: 3rem;
+    background: #383838;
+    border-radius: 0rem;
+    width: 10rem;
+    outline: none;
+    border: none;
+    margin: 0 auto;
+
+}
+
+.btm:hover, .btnTwitter:hover{
+    transform: scale(1.03);
+    transition: 150ms transform;
+    cursor: pointer;
+}
+
+.btnTwitter{
+    /* color: #ffffff; */
+    width: 2rem;
+    height: 2rem;
+    /* padding: .5rem; */
+ 
+    text-decoration: none;
+}
+
+.btnTwitter i{
+    color: #383838;
+}
